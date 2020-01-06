@@ -32,6 +32,22 @@ public class Stack {
 		}
 	}
 
+	// 연산자 우선순위 함수를 만들어야한다
+	// * / + -  
+	// 만약 * / + - 이고 우선순위  + 가 / 보다 먼저 들어왔을때   
+	// 입력받는 수가 있어야 하는구나 !! 
+	// 입력받는 수를 받고, 변수에 담고, 변수에 담은 글자를 하나하나 쪼개고,
+	// 쪼갠 값을 배열에 담아서 스택 함수에 넣는다.
+	// "a*b+c" 을 입력받음.
+	// 
+ 
+
+	String cal = "aaaa";
+
+	array_word = cal.split("");
+
+
+
 	public static void main(String[] args) {
 		Stack s = new Stack();
 		s.push("a");
